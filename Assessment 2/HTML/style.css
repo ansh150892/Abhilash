@@ -1,0 +1,171 @@
+/* *{
+    margin: 0;
+    padding: 0;
+   width: auto;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: #e1e8f6;
+  box-sizing: border-box;
+}
+
+header nav {
+  background-color: #fff;
+  height: 60px;
+  padding: 16px 78px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.logo1 {
+  width: 130px;
+  font-size: 32px;
+  color: #0084ff;
+  font-weight: 1000;
+  font-family: sans-serif;
+}
+
+.logo2 {
+  margin: 0;
+
+  font-weight: 500;
+  font-style: italic;
+}
+
+.dropdown {
+  color: black;
+  padding-left: 132px;
+}
+
+h3 {
+  font-family: "Anek Bangla", sans-serif;
+  font-size: 53px;
+  font-weight: 500;
+  margin: 30px;
+}
+
+h4 {
+  margin: 40px 50px;
+  margin-top: 0;
+  color: #000;
+}
+
+#filter {
+  color: blue;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.mid {
+  margin-left: 10%;
+}
+
+#container0 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.categories {
+  padding: 6px 14px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+#cate {
+  color: #fff;
+  background-color: #0084ff;
+}
+
+.item {
+  padding: 2% 10%;
+}
+
+.card {
+  width: 25.3%;
+  display: inline-block;
+  margin: 2%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.img img {
+  height: 176px;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title {
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+}
+
+.instu {
+  color: #0096ff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+
+  text-align: left;
+}
+
+.div {
+  text-align: left;
+}
+
+.details {
+  padding-top: 4px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin: 4px 0;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.container1 {
+  margin: 5%;
+  text-align: center;
+}
+
+h2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 18px;
+  text-align: left;
+  margin: 1%;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #172146;
+  padding: 2px;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
